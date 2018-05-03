@@ -1,0 +1,6 @@
+framework module Pods_ChowNowUITests {
+  umbrella header "Pods-ChowNowUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
