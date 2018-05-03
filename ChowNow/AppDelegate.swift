@@ -7,15 +7,32 @@
 //
 
 import UIKit
+import Firebase
+import SlideMenuControllerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //Setup Firebase
+        FirebaseApp.configure()
+
+        //Set Current Location Parameter (current location not implemented for demo)
+        UserDefaults.standard.set(sampleLocationName, forKey: "currentSearchParameter")
+        UserDefaults.standard.synchronize()
+        
+        //Setup Controllers
+        let mainListVC = NavigationController(rootViewController: MainListController())
+        let leftMenuVC = LeftMenuController()
+        
+        //Setup Slide Menu Controller
+        let slideMenuVC = SlideMenuController(mainViewController: mainListVC, leftMenuViewController: leftMenuVC)
+        SlideMenuOptions.contentViewScale = 1
+        self.window?.rootViewController = slideMenuVC
+        self.window?.makeKeyAndVisible()
+
         return true
     }
 

@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  ChowNow
+
+  Created by Justin Wells on 4/28/18.
+  Copyright © 2018 SynergyLabs. All rights reserved.
+*/
+
+//TODO: Organize strings
+"mainSubTitle" = "Order from Great Local Restaurants";
+"search" = "Search";
+"filters" = "Filters";
+"searchInArea" = "Search in this Area";
+"pizza" = "Pizza";
+"americanNew" = "American (New)";
+"mexican" = "Mexican";
+"italian" = "Italian";
+"americanTraditional" = "American (Traditional)";
+"sandwiches" = "Sandwiches";
+"cafe" = "Cafe";
+"burgers" = "Burgers";
+"thai" = "Thai";
+"deli" = "Deli";
+"breakfastAndBrunch" = "Breakfast & Brunch";
+"barbecue" = "Barbecue";
+"asianFusion" = "Asian Fusion";
+"japanese" = "Japanese";
+"sushiBars" = "Sushi Bars";
+"mediterranean" = "Mediterranean";
+"indian" = "Indian";
+"chinese" = "Chinese";
+"seafood" = "Seafood";
+"vegetarian" = "Vegetarian";
+"viewAll" = "View All";
+"topCuisines" = "Top Cuisines";
+"searchLocationPlaceholder" = "City or Address";
+"searchRestaurantPlaceholder" = "Search cuisine or restaurant";
+"openNow" = "Open Now";
+"deliversToMe" = "Delivers To Me";
+"applyFilters" = "Apply Filters";
+"cuisines" = "Cuisines";
+"results" = "results";
+"logIn" = "Log In";
+"ok" = "OK";
+"sorry" = "Sorry";
+"featureUnavailableMessage" = "This feature is not available yet.";
+"accountSettings" = "Account Settings";
+"payment" = "Payment";
+"savedAddresses" = "Saved Addresses";
+"logOut" = "Log Out";
+"goodMorning" = "Good morning";
+"goodAfternoon" = "Good afternoon";
+"goodEvening" = "Good evening";
+"greetings" = "Greetings";
+"pickup" = "Pickup";
+"delivery" = "Delivery";
+"tryANewLocation" = "Try A New Location";
+"emptySearchString" = "0 Results for your Search";
+"emptySearchStringLong" = "0 Results for your Search. Please enter a new Location";
+"enterANewSearch" = "Enter a New Search";
+"emptySearchCategoryString" = "There are no results in this area\nPlease search again";
+"cajun" = "Cajun";
+"creole" = "Creole";
+"cheesesteaks" = "Cheesesteaks";
+"teaHouse" = "Tea House";
+"fastFood" = "Fast Food";
+"korean" = "Korean";
+"smoothieBar" = "Smoothie Bar";
